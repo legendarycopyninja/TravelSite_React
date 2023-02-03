@@ -7,22 +7,29 @@
   align-items: center;
   gap: 10px;
   color: white;
+  position: fixed;
+  top: 0;
 }
+
+
 
 .card-section {
   padding: 10px 20px;
-  height: 100vh;
-}
+  margin-top: 50px;
 
+}
 .card {
-display: flex;
-gap: 20px;
-width: 471px;
-height: 168px;
+  display: flex;
+  gap: 15px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid grey;
 }
 .card--image {
   width: 125px;
-height: 168px;
+  height: 168px;
+  border-radius: 8px;
+  padding: 10px 0px;
+  
 }
 
 .contentbox{
@@ -30,11 +37,32 @@ height: 168px;
   flex-direction: column;
   gap: 10px;
   height: 168px;
+  padding: 20px 0px;
 }
 
 .location {
   display: flex;
   gap: 10px;
+  justify-content: start;
+  align-items: center;
+  height: 20px;
+}
+
+.location >h4 {
+  margin: 0;
+}
+
+.location > a,h4{
+  font-size: 0.9rem;
+}
+.contentbox>h1,h3 {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.contentbox >p {
+  margin: 0;
+  font-size: 0.65rem;
 }
 
 

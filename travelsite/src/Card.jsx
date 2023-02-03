@@ -1,6 +1,7 @@
 
 export default function Card(props) {
 return (
+    
     <div className="card">
         <img src={`${props.imageUrl}`} className="card--image" />
         <div className="contentbox" >
@@ -13,5 +14,7 @@ return (
             <p>{props.description}</p>
         </div>
     </div>
+
+   
 )
 }
